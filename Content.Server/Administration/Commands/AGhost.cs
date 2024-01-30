@@ -6,8 +6,8 @@ using Robust.Shared.Console;
 
 namespace Content.Server.Administration.Commands
 {
-    [AdminCommand(AdminFlags.Admin)]
-    public sealed class AGhost : IConsoleCommand
+    [AdminCommand(AdminFlags.Aghost)] // Corvax-Changes
+    internal sealed class AdminChatCommand : IConsoleCommand
     {
         [Dependency] private readonly IEntityManager _entities = default!;
 

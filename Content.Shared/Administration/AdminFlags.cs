@@ -90,6 +90,13 @@
         EditNotes = 1 << 14,
 
         /// <summary>
+        ///     Basic mentor verbs.
+        /// </summary>
+        Aghost = 1 << 15, // Corvax-Changes
+
+        Asay = 1 << 16, // Corvax-Changes
+        
+        /// <summary>
         ///     Dangerous host permissions like scsi.
         /// </summary>
         Host = 1u << 31,
